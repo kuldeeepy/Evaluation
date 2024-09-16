@@ -1,0 +1,244 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 13px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: #423F8D;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul button {
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    background: #12D9DF;
+}
+
+/* Heading  */
+
+.heading {
+    color: #423F8D;
+}
+
+.heading h3 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 strong {
+    color: #ED078B;
+}
+
+.heading pre {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: Arial;
+}
+
+/* Section one  */
+
+#sec1 {
+    margin-block: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+}
+
+
+.one, .two, .three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    /* border: 2px solid black; */
+    text-align: start;
+    max-width: 400px;
+}
+
+/* section two  */
+
+#sec2 {
+    padding-block: 20px;
+    background: rgba(255, 192, 203, 0.336);
+}
+
+#sec2 .head {
+    color: #423F8D;
+}
+
+#sec2 .head h1 {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+#sec2 .head pre {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: Arial;
+}
+
+#sec2 .cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-block: 90px;
+}
+
+#sec2 .cards .cd {
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#sec2 .cards .cd {
+    background: white;
+    border-radius: 28px;
+}
+
+#sec2 .cd img {
+    width: 100%;
+}
+
+#sec2 .cd > p,h2 {
+    text-align: start;
+    padding-inline: 20px;
+    margin-block: 15px;
+}
+
+#sec2 .cd h2 {
+    color: #423F8D;
+}
+
+#sec2 .cd p {
+    font-size: 14px;
+    color: #5E5E5E;
+}
+
+#sec2 .cd .miscs {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#sec2 .cd .miscs p {
+    color: #5E5E5E;
+}
+
+#sec2 .cd .miscs strong {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#sec2 .cd .miscs .o,.t {
+    display: flex;
+    justify-content: space-around;
+    margin-block: 0;
+    padding-block: 0;
+    align-items: center;
+}
+
+/* Section three  */
+
+#sec3 {
+    padding-block: 60px;
+}
+
+#sec3 .heading {
+    color: #423F8D;
+}
+
+#sec3 .heading h1 {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+#sec3 .heading pre {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: Arial;
+}
+
+#sec3 .cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-block: 50px;
+}
+
+/* Footer  */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #4255a4;
+    padding-block: 60px;
+}
+
+footer .left {
+    text-align: start;
+}
+
+footer .left pre {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: Arial;
+    color: white;
+}
+
+footer .left .icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+footer .left .icons i {
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 10px 10px;
+    background: #485aad;
+}
+
+footer .right {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    align-items: center;
+    text-align: start;
+    color: white;
+}
+
+footer .right .head {
+    font-size: 20px;
+    font-weight: 600;
+}
+
